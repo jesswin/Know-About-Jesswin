@@ -106,10 +106,14 @@ body {
 .ow{
     background-color: var(--off-white);
 }
-footer{
+.footer{
     background-color: var(--primary-color);
     padding: 2rem 1rem;
     text-align: center;
     border-top-right-radius: 1rem;
     padding-inline-start:0px;
+}
+.footer .footer-header{
+    font-weight: bolder;
+    font-size: large;
 }
