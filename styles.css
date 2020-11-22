@@ -1,12 +1,115 @@
-body{
-    color:red;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+:root {
+    --primary-color: #DDD6FE;
+    --dark-gray: #6B7280;
+    --off-white:#F3F4F6;
 }
-h1{
-    color:blue;
+
+hr {
+    margin: 2rem 0rem;
 }
-#headd{
-    color:gray;
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
 }
-.para{
-    color:green;
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center {
+    margin: auto;
+    max-width: 600px;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1.0rem;
+
+}
+
+.primary-link {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.secondary-link {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+
+}
+
+/* lists */
+.non-bullets {
+    list-style: none;
+}
+
+.list-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: black;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .link {
+    color: black;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navigation .link-active {
+    font-weight: bolder;
+}
+
+.hero {
+    padding: 2rem;
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-text {
+    color: var(--dark-gray);
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.hero .hero-text .heading-inverted {
+    color: var(--primary-color);
+}
+.section{
+    padding: 2rem;
+}
+.section h3 {
+    text-align: center;
+}
+.ow{
+    background-color: var(--off-white);
+}
+footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    border-top-right-radius: 1rem;
+    padding-inline-start:0px;
 }
