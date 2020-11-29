@@ -25,7 +25,7 @@ body {
 .container-center {
     margin: auto;
     max-width: 600px;
-    
+    text-align: justify;
 }
 
 .link {
