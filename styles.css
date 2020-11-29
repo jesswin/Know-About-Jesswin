@@ -22,9 +22,15 @@ body {
     padding-right: 1rem;
 }
 
+
+
 .container-center {
     margin: auto;
     max-width: 600px;
+
+}
+
+.container-center .paragraphs {
     text-align: justify;
 }
 
