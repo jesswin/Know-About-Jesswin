@@ -25,7 +25,7 @@ body {
 .container-center {
     margin: auto;
     max-width: 600px;
-    text-align: justify;
+    
 }
 
 .link {
@@ -111,7 +111,7 @@ body {
 
 .hero .hero-sub-text {
     color: var(--dark-gray);
- /* text-align: center; */
+    /* text-align: center; */
 }
 
 .hero .hero-text .heading-inverted {
