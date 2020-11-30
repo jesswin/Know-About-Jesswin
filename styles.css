@@ -150,6 +150,6 @@ body {
     font-size: large;
     color: var(--accent);
 }
-nav div ul li a:hover{
+.navigation a:hover{
     color: white;
 }
