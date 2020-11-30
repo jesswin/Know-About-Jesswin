@@ -89,7 +89,7 @@ body {
 }
 
 .navigation .nav-brand {
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 1.2rem;
     color: white
 }
@@ -149,4 +149,7 @@ body {
     font-weight: bolder;
     font-size: large;
     color: var(--accent);
+}
+.navigation a:hover,.footer a:hover{
+    color:#F9FAFB;
 }
