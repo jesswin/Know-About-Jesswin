@@ -104,7 +104,7 @@ body {
 }
 
 section .verticalLine {
-  border-left: thick solid #ff0000;
+  border-left: thick solid var(--accent);
 }
 
 .link {
