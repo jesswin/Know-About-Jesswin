@@ -10,27 +10,59 @@
 }
 
 @media screen and (max-width: 500px) {
-     .navigation a {
-       display: block;
-       margin: 0; 
-    }  
-    .navigation .nav-pills{
-        float: none;
-        text-align: center;
-    }
-    .navigation .nav-brand{
-        display: block;
-        text-align: center;
-    }
-    .navigation ul{
-        margin: 0;
-        padding:0;
-    }
-    .Blogsection .Blogtext{
-        
-        padding-left:0rem;
-    }
+  .Blogsection .Blogtext {
+    padding-left: 0rem;
+  }
+
+  .navigation a {
+    display: none;
+  }
+
+  .navigation#navi a.icon {
+    display: block;
+    float: right;
+  }
+
+  .navigation.responsive {
+    position: relative;
+  }
+
+  /* .navigation.responsive .icon {
+    padding: 0.5rem 0.5rem;
+  } */
+  .navigation .nav-pills {
+    float: none;
+    display: none;
+  }
+
+  .navigation.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+
+  .navigation.responsive .nav-pills {
+    display: block;
+  }
+
+  .navigation ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .navigation.responsive div.nav-brand {
+    text-align: center;
+    display: block;
+  }
+
 }
+
+.navigation a.icon {
+  display: none;
+}
+
+
+
 hr {
   margin: 2rem 0rem;
 }
@@ -49,19 +81,22 @@ body {
   margin: auto;
   max-width: 600px;
 }
-.Blogsection .imgBlog{
+
+.Blogsection .imgBlog {
   max-width: 500px;
   width: 100%;
   float: left;
 }
-.Blogsection{
-    overflow: hidden;
+
+.Blogsection {
+  overflow: hidden;
 }
-.Blogsection .Blogtext{
-    display:inline-block;
-    max-width: 600px;
-    margin: auto;
-    padding:auto;
+
+.Blogsection .Blogtext {
+  display: inline-block;
+  max-width: 600px;
+  margin: auto;
+  padding: auto;
 }
 
 .container-center .paragraphs {
@@ -69,12 +104,13 @@ body {
 }
 
 section .verticalLine {
-    border-left: thick solid #ff0000;
-  }
+  border-left: thick solid #ff0000;
+}
 
 .link {
   text-decoration: none;
   padding: 0.5rem 0.5rem;
+  font-size: 1rem;
 }
 
 .proj-link {

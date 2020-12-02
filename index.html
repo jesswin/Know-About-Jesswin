@@ -11,8 +11,8 @@
 </head>
 
 <body>
-    <div>   
-        <nav class="navigation container">
+    <div>
+        <nav class="navigation container" id="navi">
             <div class="nav-brand list-inline">Jesswin Develops</div>
             <ul class="non-bullet nav-pills">
                 <li class="list-inline">
@@ -24,10 +24,23 @@
                 <li class="list-inline ">
                     <a class="link" href="/blogs.html">Blogs</a>
                 </li>
+
             </ul>
+            <a href="javascript:void(0);" class="icon link" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
         </nav>
     </div>
-    
+    <script>
+        function myFunction() {
+            var x = document.getElementById("navi");
+            if (x.className === "navigation container") {
+                x.className += " responsive";
+            } else {
+                x.className = "navigation container";
+            }
+        }
+    </script>
     <header class="hero">
         <img class="hero-img" src="/images/feel.svg">
         <!-- <h2 class="hero-text">I am</h2> -->
