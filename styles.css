@@ -57,6 +57,27 @@
 
 }
 
+#bImg {
+  max-width: 450px;
+  width: 100%;
+  float: left;
+  margin-right: 5rem;
+}
+
+#blogTxt p {
+  border-left: 7px solid var(--primary-color);
+  overflow: hidden;
+  padding: 1rem;
+  min-width: 45%;
+}
+
+#blogHead {
+  font-weight: bolder;
+  border: 3px solid var(--primary-color);
+  width: max-content;
+  padding: 10px;
+}
+
 .navigation a.icon {
   display: none;
 }
@@ -80,23 +101,6 @@ body {
 .container-center {
   margin: auto;
   max-width: 600px;
-}
-
-.Blogsection .imgBlog {
-  max-width: 500px;
-  width: 100%;
-  float: left;
-}
-
-.Blogsection {
-  overflow: hidden;
-}
-
-.Blogsection .Blogtext {
-  display: inline-block;
-  max-width: 600px;
-  margin: auto;
-  padding: auto;
 }
 
 .container-center .paragraphs {
