@@ -54,7 +54,8 @@
     text-align: center;
     display: block;
   }
-  #bImg{
+
+  #bImg {
     padding: 0.5rem;
   }
 
@@ -83,11 +84,32 @@
   padding: 10px;
 }
 
+.blogDetail h2 {
+  margin-block-end: 0em;
+}
+
+.blogDetail {
+  text-align: left;
+  max-width: 700px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.blogDetail img {
+  max-width: 700px;
+  width: 95%;
+  padding-top: 1.5rem;
+}
+
+.blogDetail h4 {
+  text-align: right;
+  margin-block-start: 0 em;
+  margin-block-end: 0em;
+}
+
 .navigation a.icon {
   display: none;
 }
-
-
 
 hr {
   margin: 2rem 0rem;
@@ -108,7 +130,8 @@ body {
   max-width: 600px;
 }
 
-.container-center .paragraphs {
+.container-center .paragraphs,
+.blogDetail .paragraphs {
   text-align: justify;
 }
 
@@ -153,13 +176,14 @@ section .verticalLine {
   padding: 0rem 0.5rem;
 }
 
-#projects h1{
-    margin-block-end: 0em;
+#projects h1 {
+  margin-block-end: 0em;
 }
 
-#projects p{
+#projects p {
   margin-block-start: 0em;
 }
+
 .navigation {
   overflow: hidden;
   background-color: var(--primary-color);
@@ -243,9 +267,10 @@ section .verticalLine {
   color: var(--accent);
 }
 
-.footer ul{
+.footer ul {
   padding-inline-start: 0px;
 }
+
 .navigation a:hover,
 .footer a:hover {
   color: #f9fafb;
