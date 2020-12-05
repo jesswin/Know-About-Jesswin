@@ -54,12 +54,15 @@
     text-align: center;
     display: block;
   }
+  #bImg{
+    padding: 0.5rem;
+  }
 
 }
 
 #bImg {
   max-width: 450px;
-  width: 100%;
+  width: 95%;
   float: left;
   margin-right: 1.5rem;
   max-height: 300px;
@@ -240,6 +243,9 @@ section .verticalLine {
   color: var(--accent);
 }
 
+.footer ul{
+  padding-inline-start: 0px;
+}
 .navigation a:hover,
 .footer a:hover {
   color: #f9fafb;
