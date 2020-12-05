@@ -61,7 +61,7 @@
   max-width: 450px;
   width: 100%;
   float: left;
-  margin-right: 3rem;
+  margin-right: 1.5rem;
   max-height: 300px;
   padding-top: 1.5rem;
 }
@@ -150,6 +150,13 @@ section .verticalLine {
   padding: 0rem 0.5rem;
 }
 
+#projects h1{
+    margin-block-end: 0em;
+}
+
+#projects p{
+  margin-block-start: 0em;
+}
 .navigation {
   overflow: hidden;
   background-color: var(--primary-color);
